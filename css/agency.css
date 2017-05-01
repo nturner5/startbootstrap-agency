@@ -46,6 +46,25 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+.rowflex{
+  display: flex;
+  /*align-items: center;*/
+  margin: auto 0px;
+  /*margin-left: 300px;*/
+  /*align-content: center;*/
+  justify-content: space-around;
+  
+}
+.flexChild{
+  width: 120px;
+  height: 100%;
+  /*background-color: blue;*/
+
+}
+.mepic{
+  max-width: 50%;
+}
+
 .img-centered {
   margin: 0 auto;
 }
@@ -366,6 +385,10 @@ section h3.section-subheading {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+  .row{
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .timeline {
   list-style: none;
@@ -546,6 +569,7 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  margin-bottom: 20px;
 }
 .team-member p {
   margin-top: 0;
@@ -629,10 +653,11 @@ ul.social-buttons {
   margin-bottom: 0;
 }
 ul.social-buttons li a {
+  padding-top: 5px;
   display: block;
   background-color: #222222;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
@@ -712,6 +737,7 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1051;
 }
+
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
@@ -743,4 +769,40 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+.resumeA{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.resumeStyle{
+  /*background-color: blue;*/
+  /*overflow: hidden;*/
+  width: 100%;
+  height: 100%;
+  /*display: flex;*/
+  /*margin-left: 0 auto;*/
+background-color: transparent;
+}
+.resumeActual{
+  margin: 40px;
+  width: 70vw;
+  height: 99%;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  /*align-items: center;*/
+}
+/*.resumeBack{
+  background-size: cover;
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+}*/
+.abso{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 10;
 }
